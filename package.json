@@ -1,0 +1,65 @@
+{
+  "name": "@dokjas-company/solid-sort",
+  "version": "0.0.2",
+  "description": "SortableJS bindings for SolidJS",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "sortablejs",
+    "sorting",
+    "library"
+  ],
+  "licence": "MIT",
+  "author": {
+    "name": "Anis Oseryx",
+    "email": "oseanisx@gmail.com",
+    "url": "https://github.com/Oseryx"
+  },
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "homepage": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/sortablejs": "^1.15.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "path": "^0.12.7",
+    "sortablejs": "^1.15.0",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.7.3"
+  }
+}
