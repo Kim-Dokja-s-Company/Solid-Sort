@@ -1,6 +1,6 @@
 {
   "name": "@dokjas-company/solid-sort",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SortableJS bindings for SolidJS",
   "keywords": [
     "solid",
@@ -16,14 +16,16 @@
     "url": "https://github.com/Oseryx"
   },
   "repository": {
-    "url": "",
+    "url": "https://github.com/Kim-Dokja-s-Company/Solid-Sort",
     "type": "git"
   },
   "homepage": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -41,6 +43,7 @@
   "license": "MIT",
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "^18.15.11",
     "@types/sortablejs": "^1.15.1",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
@@ -54,8 +57,6 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
-    "@types/node": "^18.15.11",
-    "path": "^0.12.7",
     "sortablejs": "^1.15.0",
     "vite-plugin-dts": "^2.3.0"
   },
